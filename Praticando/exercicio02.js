@@ -24,10 +24,13 @@ console.log("IMC = " + imc.toFixed(2));
 
 if (imc < 18.5) {
     console.log("Status: Abaixo do Peso!");
-} else if (imc > 18.5 && imc <= 25) {
+} else if (imc >= 18.5 && imc < 25) {
     console.log("Status: Peso Normal!");
-} else if (imc > 25 && imc <= 30) {
+} else if (imc >= 25 && imc < 30) {
     console.log("Status: Acima do Peso!");
-} else{
+} else if (imc >= 30 && imc < 40) {
+    console.log("Status: Obeso!");
+}
+else {
     console.log("Status: Obesidade Grave!");
 } 
