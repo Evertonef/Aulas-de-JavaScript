@@ -1,5 +1,5 @@
 /* 
-3) Eçabore um algoritmo que calcule o que deve ser pago por um produto, considerando o preço normal de etiqueta
+3) Elabore um algoritmo que calcule o que deve ser pago por um produto, considerando o preço normal de etiqueta
 e a escolha da condição de pagamento.
 Ultilize os códigos da tabela a seguir para ler qual a condição de pagamento escolida e efutuar o calculo
 adequado.
